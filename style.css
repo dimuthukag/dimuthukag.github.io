@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+
+}
+
+#brief {
+    min-height: 90vh;
+    border: 2px solid white;
+}
+
+#brief p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5vh;
+    width: 80%;
+    text-align: left;
+    margin: 30vh auto;
+    padding: 2vh 2vw;
+    line-height: 1.5;
+    border: 1px solid white;
+}
+
+#expand-more {
+    height: 10vh;
+    text-align: center;
+    border: 2px solid white;
+}
+
+#expand-more img {
+    margin: 1vh;
+    width: 3vw;
+}
+
+@media (max-width: 1080px) {
+    header{
+        height: 93vh;
+    }
+    #brief{
+        min-height: 80vh;
+    }
+    #brief p{
+        font-size: 4vh;
+        width: 90%;
+        text-align: center;
+        margin: 15vh auto;
+        padding: 10vh 10vw;
+    }
+
+    #expand-more{
+        min-height: 12vh;
+    }
+
+    #expand-more img{
+        margin: 2vh;
+        width: 8vw;
+    }
+}
+
+footer{
+    min-height: 10vh;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+}
